@@ -1,6 +1,8 @@
 import "./App.css";
+import { useState } from "react";
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="portfolio">
 
@@ -12,7 +14,7 @@ function App() {
           <span>Rutuja Patil</span>
         </div>
 
-        <div className="nav-links">
+        <div className={`nav-links ${menuOpen ? "open" : ""}`}>
           <a href="#home">Home</a>
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
@@ -30,9 +32,13 @@ function App() {
           ↓ &nbsp; Download Resume
         </a>
 
-        <button className="menu-btn" aria-label="Open menu">
+        <button
+          className="menu-btn"
+          aria-label="Toggle menu"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
           ☰
-        </button>
+        </button>        
       </nav>
 
 
