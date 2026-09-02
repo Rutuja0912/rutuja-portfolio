@@ -99,7 +99,7 @@ function App() {
             </a>
 
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/rutuja-patil-2b359b374"
               target="_blank"
               rel="noreferrer"
             >
@@ -505,7 +505,7 @@ function App() {
           </a>
 
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/rutuja-patil-2b359b374"
             target="_blank"
             rel="noreferrer"
           >
